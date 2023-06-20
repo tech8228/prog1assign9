@@ -8,7 +8,7 @@ public class j16q1 {
 		// TODO Auto-generated method stub
 		
 		Scanner kb = new Scanner (System.in);
-		int i, v;
+		int i, v=0;
 		int count =0;
 		System.out.println("Please give me the size of array ?");
 		int size = kb.nextInt();

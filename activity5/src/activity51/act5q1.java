@@ -1,4 +1,4 @@
-package activity5;
+package activity51;
 
 public class act5q1 {
 
