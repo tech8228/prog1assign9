@@ -1,0 +1,24 @@
+package activity5;
+
+import java.util.Scanner;
+
+public class act5q2 {
+	private static void cal(int p, int t, double intrate, int mo) {
+		System.out.print("Years     Future Value");
+		System.out.println();
+		for (int i=0; i<t;i++) {
+		double amount = p* Math.pow(1+(intrate/mo), mo*i);
+		double compint= amount-p;
+		System.out.printf("%.10d %   %5.2f",i, compint);
+		//System.out.println("Compound Interest after " + t + " years: "+compint);
+        //System.out.println("Amount after " + t + " years: "+amount);
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cal(1000, 5, 0.1, 12);
+	}
+	
+	
+
+}
