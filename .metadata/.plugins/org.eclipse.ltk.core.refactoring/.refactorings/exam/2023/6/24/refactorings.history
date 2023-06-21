@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;MyProgram1.java&apos; to &apos;exam&apos;" description="Move &apos;MyProgram1.java&apos; to &apos;exam&apos;" destination="/exam" element1="/classact/src/classact/Class-7/MyProgram1.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1686884282017" updateReferences="true"/>
-</session>
